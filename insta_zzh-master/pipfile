@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+django = "*"
+django-imagekit = "*"
+pillow = "*"
+django-annoying = "*"
+gunicorn = "*"
+whitenoise = "*"
+elasticsearch = "2.4.1"
+djangorestframework = "*"
+django-elasticsearch-dsl = "7.1.0"
+elasticsearch-dsl = "*"
+django-haystack = "*"
+numpy = "1.19.3"
+[requires]
+python_version = "3.8"
