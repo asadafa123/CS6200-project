@@ -32,6 +32,7 @@ Download flickr dataset https://www.kaggle.com/hsankesara/flickr-image-dataset a
 
 Make sure the elasticsearch server is running. do
 ```
+pipenv shell
 python manage.py runserver
 ```
 Then type ``` localhost:8000/Insta/posts or Insta/explore/ ``` or any urls you can find in Insta/urls.py for testing.
