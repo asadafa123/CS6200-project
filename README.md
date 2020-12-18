@@ -45,10 +45,19 @@ username: test10 | password 123456
 to get access into the project.
 
 try
+
+```
+localhost:8000/admin | username:root ; password 123456 
+```
+for admin operations.
+
+try
 ```
 localhost:8000/Insta/init_dataset/
 ```
 to add all pictures in dataset as post 
+
+Notice: This process would take long. Please change parameters in views.py -> init_dataset. (try Insta/init_reset to delete all posts)
 
 try
 ```
