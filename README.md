@@ -58,7 +58,7 @@ localhost:8000/Insta/init_dataset/
 ```
 to add all pictures in dataset as post 
 
-Notice: This process would take long. Please change parameters in views.py -> init_dataset. (try Insta/init_reset to delete all posts)
+Notice: This process would take long. Please change parameters in views.py -> init_dataset for partial dataset loading. (try Insta/init_reset to delete all posts)
 
 try
 ```
