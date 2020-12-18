@@ -34,9 +34,9 @@ Make sure the elasticsearch server is running. do
 ```
 python manage.py runserver
 ```
-Then type ``` localhost:8000/Insta/ ``` or any urls you can find in Insta/urls.py for testing.
+Then type ``` localhost:8000/Insta/posts or Insta/explore/ ``` or any urls you can find in Insta/urls.py for testing.
 
-### 6. test account
+### 6. Testing
 
 try
 ```
